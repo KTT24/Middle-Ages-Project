@@ -3,6 +3,13 @@
   text-align: center;
 }
 
+.manor {
+  display: flex;
+  width: 60%;
+ padding: 20px;
+ 
+}
+
 
 .fade-out{ 
   animation-duration: 1s;
