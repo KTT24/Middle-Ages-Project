@@ -1,0 +1,118 @@
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+
+.fade-out{ 
+  animation-duration: 1s;
+  animation-name: fade-out;
+}
+
+@keyframes fade-out {
+  from { opacity:1 } 
+  to { opacity:0 }
+}
+
+
+.animate-bottom2 {
+  position: relative;
+  -webkit-animation-name: animatebottom2;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 3s
+}
+
+@-webkit-keyframes animatebottom2 {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+.drawing {
+  height: 40%;
+  width: 50%;
+  position: relative;
+  display: flex;
+  margin-left: 25%;
+  border-radius: 15px 15px 15px 15px;
+}
+
+@keyframes animatebottom2 { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+/* Demo */
+body {
+    height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ecf0f1), to(#fff));
+    background: linear-gradient(#ecf0f1, #fff);
+  }
+  
+  /* Animation */
+  @-webkit-keyframes rotate {
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  /* Variables */
+  /* Loading Icon */
+  .loading {
+    width: 100px;
+    height: 100px;
+  }
+  .loading__ring {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  .loading__ring:first-child {
+    -webkit-transform: skew(30deg, 20deg);
+            transform: skew(30deg, 20deg);
+  }
+  .loading__ring:last-child {
+    -webkit-transform: skew(-30deg, -20deg) scale(-1, 1);
+            transform: skew(-30deg, -20deg) scale(-1, 1);
+  }
+  .loading__ring:last-child svg {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+  }
+  .loading__ring svg {
+    -webkit-animation: rotate 1s linear infinite;
+            animation: rotate 1s linear infinite;
+    fill: rgba(0, 0, 0, 0.2);
+  }
+  
