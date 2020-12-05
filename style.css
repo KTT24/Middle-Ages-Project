@@ -1,12 +1,13 @@
 #myDiv {
+  padding: 20px;
+  margin: 0;
   display: none;
   text-align: center;
 }
 
 .manor {
-  display: flex;
-  width: 60%;
- padding: 20px;
+  width: 350px;
+  margin-left: 28%;
  
 }
 
@@ -23,7 +24,7 @@
 
 
 .animate-bottom2 {
-  position: relative;
+  list-style-type: none;
   -webkit-animation-name: animatebottom2;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
