@@ -1,23 +1,6 @@
 {
-  "name": "MiddleAgesProject",
-  "version": "0.0.1",
-  "description": "School Project",
-  "main": "index.js",
   "dependencies": {
-    "electron": "^11.0.0-beta.23"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KTT24/Middle-Ages-Project.git"
-  },
-  "author": "Kutter Thornton",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KTT24/Middle-Ages-Project/issues"
-  },
-  "homepage": "https://github.com/KTT24/Middle-Ages-Project#readme"
+    "sass": "^1.32.6",
+    "scss": "^0.2.4"
+  }
 }
