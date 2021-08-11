@@ -1,12 +1,19 @@
-# Spark Book
-A students best friend
+# Sparks
+A students best friend.
 
-# What is spark book
-It is an online text book for all of your courses
+# What is sparks?
+Sparks is a tool to better enhnace the workflow of a busy students.
 
+### Features
+
+- Textbooks for every us state using open source API'S.
 
 # For Quick Contrubution
-You can youse gitpod for the use of PR form andwhere in the world on any device.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+You can use Gitpod to do pull request.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://lime-rook-gxfnyuvm.ws-us03.gitpod.io/#/workspace/Spark-Book
 )
